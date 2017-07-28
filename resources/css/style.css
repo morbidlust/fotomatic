@@ -223,27 +223,35 @@ header .mobile {
 
 #features-section {
   display: flex;
-  justify-content: center;
-  padding: 64px 0;
+  justify-content: space-between;
+  padding: 4rem 5%;
   background-color: #f3f3f3;
 }
 
 .feature {
   flex: 1;
-  margin: 0px 19px;
-  height: 635px;
+  margin: 0px 1.25rem;
+  padding: 2rem;
   background-color: white;
 }
 
-.feature img {
+.center {
+  text-align: center;
+}
+
+.feature .image-container {
   width: 90%;
   height: 65%;
-  padding: 2rem;
-  margin-bottom: 0.5rem;
+  margin: 0 auto;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
 }
 
 .center .content {
-  height: 147px;
+  padding: 2.5rem 0;
 }
 
 .feature h2 {
