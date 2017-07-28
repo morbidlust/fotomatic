@@ -114,6 +114,7 @@ header .mobile {
 
   header .content {
     padding: .5rem 0;
+    height: auto;
   }
 
   header .mobile ul {
@@ -423,6 +424,7 @@ header .mobile {
   #quotes-section .content {
     padding: 1rem .625rem;
     display: flex;
+    flex-direction: column;
   }
 
   #quotes-section .quote {
