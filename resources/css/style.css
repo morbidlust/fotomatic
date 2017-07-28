@@ -387,7 +387,9 @@ header .mobile {
   #filters-section .images-container {
     padding: 0;
   }
+}
 
+@media only screen and (max-width: 450px) {
   #filters-section .extra {
     display: none;
   }
