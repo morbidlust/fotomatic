@@ -415,23 +415,26 @@ header .mobile {
   height: 1.875rem;
 }
 
-
-
 @media only screen and (max-width: 760px) {
-  #quotes-section .content {
-    padding: 1.875rem .625rem;
+  #quotes-section {
+    padding: 1rem .5rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .content {
+    padding: 1rem .625rem;
+    display: flex;
+  }
+
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
   #quotes-section .quote-citation {
-    display: block;
-    padding-top: 1rem;
+    padding: 1rem 0;
     margin: auto;
   }
+
 }
 
 /* Footer */
