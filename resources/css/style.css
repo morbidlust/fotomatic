@@ -208,6 +208,8 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    margin: auto;
+    padding: auto;
   }
 
   #sign-up-cta .content {
